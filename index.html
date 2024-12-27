@@ -9,15 +9,16 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             line-height: 1.6;
+            background-color: black;
         }
         header, footer {
-            background: #f4f4f4;
+            background: red;
             padding: 10px 20px;
             text-align: center;
         }
         nav {
-            background: #333;
-            color: #fff;
+            background: blue;
+            color: red;
             padding: 10px;
         }
         nav ul {
@@ -29,7 +30,7 @@
             margin: 0 10px;
         }
         nav ul li a {
-            color: white;
+            color: blue;
             text-decoration: none;
         }
         main {
@@ -44,27 +45,27 @@
             margin-top: 10px;
         }
         table, th, td {
-            border: 1px solid #ddd;
+            border: 1px solid red;
         }
         th, td {
             padding: 10px;
             text-align: left;
         }
         .form-container {
-            background: #f9f9f9;
+            background: red;
             padding: 20px;
-            border: 1px solid #ddd;
+            border: 1px solid blue;
         }
         .form-container input, 
         .form-container textarea {
             width: 100%;
             padding: 10px;
             margin: 10px 0;
-            border: 1px solid #ddd;
+            border: 1px solid blue;
         }
         .form-container button {
-            background: #333;
-            color: #fff;
+            background: blue;
+            color: red;
             padding: 10px 20px;
             border: none;
             cursor: pointer;
@@ -72,6 +73,9 @@
         img {
             max-width: 100%;
             height: auto;
+        }
+        .white-text {
+            color: white;
         }
     </style>
 </head>
@@ -94,15 +98,15 @@
     
     <main>
         <section id="headings">
-            <h2>Headings</h2>
-            <h3>Subheading Example</h3>
-            <p>Headings are used to structure your document.</p>
+            <h2 class="white-text">Headings</h2>
+            <h3 class="white-text">Subheading Example</h3>
+            <p class="white-text">Headings are used to structure your document.</p>
         </section>
 
         <section id="paragraphs">
-            <h2>Paragraphs</h2>
-            <p>This is a paragraph of text that provides some information about this section.</p>
-            <p>Another paragraph with <strong>bold text</strong>, <em>italicized text</em>, and <a href="#">a hyperlink</a>.</p>
+            <h2 class="white-text">Paragraphs</h2>
+            <p class="white-text">This is a paragraph of text that provides some information about this section.</p>
+            <p class="white-text">Another paragraph with <strong>bold text</strong>, <em>italicized text</em>, and <a href="#">a hyperlink</a>.</p>
         </section>
 
         <section id="image">
@@ -111,14 +115,14 @@
         </section>
 
         <section id="list">
-            <h2>List</h2>
-            <h3>Ordered List</h3>
+            <h2 class="white-text">List</h2>
+            <h3 class="white-text">Ordered List</h3>
             <ol>
                 <li>First item</li>
                 <li>Second item</li>
                 <li>Third item</li>
             </ol>
-            <h3>Unordered List</h3>
+            <h3 class="white-text">Unordered List</h3>
             <ul>
                 <li>Item one</li>
                 <li>Item two</li>
@@ -127,7 +131,7 @@
         </section>
 
         <section id="table">
-            <h2>Table</h2>
+            <h2 class="white-text">Table</h2>
             <table>
                 <thead>
                     <tr>
@@ -171,7 +175,7 @@
     </main>
     
     <footer>
-        <p>&copy; 2024 HTML Demo. All rights reserved.</p>
+        <p>&copy; AllMindControl 2024. All rights reserved.</p>
     </footer>
 </body>
 </html>
